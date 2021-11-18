@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    max-height: 100%;
+    background-color: #24262b;
+    line-height: 180%;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 5px;
+    border: 0.5px solid #F33924;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+    color: #bbbbbb;
+    font-weight: 300;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+ul li a:hover{
+    color: #F33924;
+}
+.fa{
+    text-decoration: none;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    padding: 5px;
+    width: 35px;
+    color: #bbbbbb;
+    text-align: center;
+    transition: 0.5s;
+    
+}
+.fa:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+}
+.icons{
+    font-size: 20px;
+}
+@media (max-width: 375px){
+    .footer-col{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer-col h4{
+        margin-bottom: 5px;
+    }
+}
